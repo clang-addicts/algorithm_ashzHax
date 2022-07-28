@@ -7,7 +7,7 @@ if __name__ == '__main__':
 
     for a in s:
         if a.isalpha():
-            alpha= True
+            alpha = True
         if a.isdigit():
             numeric = True
         if a.islower():
@@ -17,7 +17,9 @@ if __name__ == '__main__':
     
     if alpha or numeric:
         print('True') 
+    else:
+        print('False')
     print(alpha)
     print(numeric)
-    print(up)
     print(low)
+    print(up)
