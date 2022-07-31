@@ -9,3 +9,4 @@ for a in range(0, int(input())):
     for g in list(string):
         for _ in range(0, loop_cnt):
             new = new + g
+    print(new)
